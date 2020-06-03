@@ -83,13 +83,6 @@ public class Heap {
 		return left ? 2 * index + 1 : 2 * index + 2;
 	}
 
-	/*
-	 * public void fixHeapBelow(int index) {
-	 * 
-	 * while() {
-	 * 
-	 * } }
-	 */
 
 	public void printHeap() {
 		for (int i = 0; i < heap.length; i++) {
