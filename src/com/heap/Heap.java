@@ -74,7 +74,7 @@ public class Heap {
 		heap[index] = heap[size - 1];
 		int elementToBeDeleted = heap[index];
 		if (index == 0 || heap[index] < heap[parentIndex]) {
-			fixHeapBelow(index);
+			//fixHeapBelow(index);
 		}
 
 	}
@@ -83,12 +83,13 @@ public class Heap {
 		return left ? 2 * index + 1 : 2 * index + 2;
 	}
 
-	public void fixHeapBelow(int index) {
-
-		while() {
-			
-		}
-	}
+	/*
+	 * public void fixHeapBelow(int index) {
+	 * 
+	 * while() {
+	 * 
+	 * } }
+	 */
 
 	public void printHeap() {
 		for (int i = 0; i < heap.length; i++) {
