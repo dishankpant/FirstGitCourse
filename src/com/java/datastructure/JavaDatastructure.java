@@ -8,7 +8,7 @@ public class JavaDatastructure {
 
 		Hashtable table = new Hashtable<>();
 		table.put("key", "null");
-		table.put("key", "jd");
+		//table.put("key", "jd");
 		System.out.println(table);
 	}
 

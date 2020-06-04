@@ -68,9 +68,6 @@ public class Heap {
 	public void delete(int index) {
 
 		int parentIndex = getParent(index);
-		// int leftChild = leftChild(index, true);
-		// int rightChild = leftChild(index, false);
-		// swap value at index with the last value;
 		heap[index] = heap[size - 1];
 		int elementToBeDeleted = heap[index];
 		if (index == 0 || heap[index] < heap[parentIndex]) {
